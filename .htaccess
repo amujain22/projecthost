@@ -1,0 +1,6 @@
+ErrorDocument 404 /project/404.php
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "upgrade-insecure-requests;"
+</IfModule>
+
+
